@@ -1,6 +1,6 @@
 {
   "firstLaunchAt": "2026-04-28T09:53:19.788Z",
   "models": {
-    "default": "gemma-4-31b-it"
+    "default": "Llama-3.1-Nemotron-70B-Reward"
   }
 }
