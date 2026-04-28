@@ -65,6 +65,9 @@ env:
   USER_COMMENT_ID: "${{ github.event_name == 'repository_dispatch' && github.event.client_payload.user_comment_id || inputs.user_comment_id }}"
   # 給 Copilot CLI 做 GitHub 驗證用的 token；實際權限要看 repo secrets 如何配置。
   COPILOT_GITHUB_TOKEN: "${{ secrets.COPILOT_GITHUB_TOKEN }}"
+  COPILOT_PROVIDER_API_KEY: "${{ secrets.COPILOT_PROVIDER_API_KEY }}"
+  COPILOT_MODEL: "${{ vars.COPILOT_MODEL || 'z-ai/glm-5.1' }}"
+  COPILOT_PROVIDER_BASE_URL: "https://integrate.api.nvidia.com/v1"
 
 jobs:
   # 單一主 job：在 GitHub-hosted runner 上完成驗證、執行 agent、寫回結果。
