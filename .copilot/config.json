@@ -1,6 +1,6 @@
 {
   "firstLaunchAt": "2026-04-28T09:53:19.788Z",
   "models": {
-    "default": "minimaxai/minimax-m2.7"
+    "default": "gemma-4-31b-it"
   }
 }
