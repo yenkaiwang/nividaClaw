@@ -1,0 +1,34 @@
+2026-04-28T10:58:00.700Z [WARNING] Model "z-ai/glm-5.1" is not in the built-in catalog. Using defaults for: prompt tokens (COPILOT_PROVIDER_MAX_PROMPT_TOKENS), output tokens (COPILOT_PROVIDER_MAX_OUTPUT_TOKENS). Run `copilot help providers` for configuration details.
+2026-04-28T10:58:01.069Z [INFO] Session indexing debug: SESSION_INDEXING=false, repository=undefined, savedIndexingLevel=undefined
+2026-04-28T10:58:01.112Z [INFO] Workspace initialized: 24b02ab2-32fc-4c88-aa70-1f9ce9e99154 (checkpoints: 0)
+2026-04-28T10:58:01.114Z [INFO] Session indexing debug: showSessionSyncPrompt=false
+2026-04-28T10:58:01.114Z [INFO] Starting Copilot CLI: 1.0.27
+2026-04-28T10:58:01.115Z [INFO] Node.js version: v24.11.1
+2026-04-28T10:58:01.126Z [ERROR] Starting remote MCP client for github-mcp-server with url: https://api.individual.githubcopilot.com/mcp/readonly
+2026-04-28T10:58:01.126Z [ERROR] Creating MCP client for github-mcp-server...
+2026-04-28T10:58:01.127Z [ERROR] Connecting MCP client for github-mcp-server...
+2026-04-28T10:58:01.793Z [ERROR] MCP client for github-mcp-server connected, took 666ms
+2026-04-28T10:58:01.794Z [ERROR] Started MCP client for remote server github-mcp-server
+2026-04-28T10:58:01.794Z [ERROR] GitHub MCP server configured after authentication
+2026-04-28T10:58:02.034Z [INFO] Memory is not enabled: Error: Copilot token is required
+2026-04-28T10:58:02.034Z [INFO] Memory is not enabled; skipping memory tools.
+2026-04-28T10:58:02.116Z [INFO] Memory is not enabled: Error: Copilot token is required
+2026-04-28T10:58:02.116Z [INFO] Memory is not enabled; skipping memory tools.
+2026-04-28T10:58:02.121Z [INFO] Memory is not enabled: Error: Copilot token is required
+2026-04-28T10:58:02.121Z [INFO] Memory is not enabled; skipping memory tools.
+2026-04-28T10:58:02.122Z [INFO] Using custom provider: type=openai, baseUrl=https://integrate.api.nvidia.com/v1, wireApi=completions
+2026-04-28T10:58:02.122Z [INFO]  
+2026-04-28T10:58:02.123Z [INFO] --- Start of group: Custom provider configured settings: ---
+2026-04-28T10:58:02.123Z [INFO] --- End of group ---
+2026-04-28T10:58:02.124Z [ERROR] Failed to load memories for prompt: Error: Copilot token is required
+2026-04-28T10:58:02.130Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-04-28T10:58:02.131Z [INFO] --- End of group ---
+2026-04-28T10:58:02.979Z [INFO] CompactionProcessor: Utilization 14.0% (17933/128000 tokens) below threshold 80%
+2026-04-28T10:58:03.067Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-28T10:58:24.680Z [INFO] --- End of group ---
+2026-04-28T10:58:25.230Z [INFO] CompactionProcessor: Utilization 14.1% (18082/128000 tokens) below threshold 80%
+2026-04-28T10:58:25.318Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-28T10:59:14.134Z [INFO] --- End of group ---
+2026-04-28T10:59:14.188Z [INFO] CompactionProcessor: Utilization 14.3% (18247/128000 tokens) below threshold 80%
+2026-04-28T10:59:14.280Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-04-28T10:59:18.076Z [INFO] --- End of group ---
