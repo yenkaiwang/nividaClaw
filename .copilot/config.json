@@ -1,6 +1,6 @@
 {
   "firstLaunchAt": "2026-04-28T09:53:19.788Z",
   "models": {
-    "default": "Stable Diffusion 3/XL"
+    "default": "stable-diffusion-3.5-large"
   }
 }
