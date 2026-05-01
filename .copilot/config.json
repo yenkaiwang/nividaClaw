@@ -1,6 +1,6 @@
 {
-  "provider": "cloudflare",
-  "byokModel": "@cf/moonshotai/kimi-k2.6",
+  "provider": "nvidia-nim",
+  "byokModel": "stable-diffusion-3.5-large",
   "providerType": "openai",
   "providerBaseUrl": "https://integrate.api.nvidia.com/v1",
   "firstLaunchAt": "2026-03-11T00:00:00.000Z"
