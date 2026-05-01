@@ -1,5 +1,6 @@
 {
-  "provider": "cloudflare",
-  "byokModel": "@cf/google/gemma-4-26b-a4b-it",
-  "providerType": "openai"
+  "provider": "nvidia-nim",
+  "byokModel": "nvidia/nemotron-3-super-120b-a12b",
+  "providerType": "openai",
+  "providerBaseUrl": "https://integrate.api.nvidia.com/v1"
 }
