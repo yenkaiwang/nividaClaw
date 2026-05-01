@@ -1,0 +1,5 @@
+{
+  "provider": "cloudflare",
+  "byokModel": "@cf/google/gemma-4-26b-a4b-it",
+  "providerType": "openai"
+}
