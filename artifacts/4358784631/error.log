@@ -1,0 +1,2 @@
+Model 'Stable Diffusion 3 Medium' not found on provider at https://integrate.api.nvidia.com/v1 (HTTP 404).
+  Check that the model is available on your provider.
