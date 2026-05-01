@@ -1,6 +1,6 @@
 {
   "provider": "nvidia-nim",
-  "byokModel": "mistralai/mistral-medium-3.5-128b",
+  "byokModel": "openai/gpt-oss-120b",
   "providerType": "openai",
   "providerBaseUrl": "https://integrate.api.nvidia.com/v1",
   "firstLaunchAt": "2026-03-11T00:00:00.000Z"
