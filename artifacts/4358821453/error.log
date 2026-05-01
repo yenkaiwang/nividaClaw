@@ -1,0 +1,2 @@
+Model '@cf/moonshotai/kimi-k2.6' not found on provider at https://integrate.api.nvidia.com/v1 (HTTP 404).
+  Check that the model is available on your provider.
