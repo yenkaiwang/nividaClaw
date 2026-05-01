@@ -1,0 +1,1 @@
+The latest stock price for Taiwan Semiconductor Manufacturing Company (TSMC, 2330.TW) is NT$2,135.00, which represents a decrease of 2.06% (-45.00 TWD) as of the close on April 30, 2026. The stock's 52-week range is between NT$893.00 and NT$2,330.00, and the company has a market cap of approximately NT$55.37 trillion.
