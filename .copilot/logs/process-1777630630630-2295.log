@@ -1,0 +1,51 @@
+2026-05-01T10:17:10.631Z [WARNING] Model "deepseek-ai/deepseek-v4-pro" is not in the built-in catalog. Using defaults for: prompt tokens (COPILOT_PROVIDER_MAX_PROMPT_TOKENS), output tokens (COPILOT_PROVIDER_MAX_OUTPUT_TOKENS). Run `copilot help providers` for configuration details.
+2026-05-01T10:17:10.890Z [INFO] Session indexing debug: SESSION_INDEXING=false, repository=undefined, savedIndexingLevel=undefined
+2026-05-01T10:17:10.934Z [INFO] Workspace initialized: aa10acb3-c8aa-4ebc-b4b4-e28016ba965c (checkpoints: 0)
+2026-05-01T10:17:10.937Z [INFO] Session indexing debug: showSessionSyncPrompt=false
+2026-05-01T10:17:10.937Z [INFO] Starting Copilot CLI: 1.0.27
+2026-05-01T10:17:10.937Z [INFO] Node.js version: v24.11.1
+2026-05-01T10:17:10.949Z [ERROR] Starting remote MCP client for github-mcp-server with url: https://api.individual.githubcopilot.com/mcp/readonly
+2026-05-01T10:17:10.949Z [ERROR] Creating MCP client for github-mcp-server...
+2026-05-01T10:17:10.950Z [ERROR] Connecting MCP client for github-mcp-server...
+2026-05-01T10:17:11.237Z [ERROR] MCP client for github-mcp-server connected, took 287ms
+2026-05-01T10:17:11.238Z [ERROR] Started MCP client for remote server github-mcp-server
+2026-05-01T10:17:11.238Z [ERROR] GitHub MCP server configured after authentication
+2026-05-01T10:17:11.371Z [INFO] Memory is not enabled: Error: Copilot token is required
+2026-05-01T10:17:11.371Z [INFO] Memory is not enabled; skipping memory tools.
+2026-05-01T10:17:11.591Z [INFO] Memory is not enabled: Error: Copilot token is required
+2026-05-01T10:17:11.591Z [INFO] Memory is not enabled; skipping memory tools.
+2026-05-01T10:17:11.596Z [INFO] Memory is not enabled: Error: Copilot token is required
+2026-05-01T10:17:11.596Z [INFO] Memory is not enabled; skipping memory tools.
+2026-05-01T10:17:11.597Z [INFO] Using custom provider: type=openai, baseUrl=https://integrate.api.nvidia.com/v1, wireApi=completions
+2026-05-01T10:17:11.597Z [INFO]  
+2026-05-01T10:17:11.597Z [INFO] --- Start of group: Custom provider configured settings: ---
+2026-05-01T10:17:11.597Z [INFO] --- End of group ---
+2026-05-01T10:17:11.599Z [ERROR] Failed to load memories for prompt: Error: Copilot token is required
+2026-05-01T10:17:11.605Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-05-01T10:17:11.606Z [INFO] --- End of group ---
+2026-05-01T10:17:12.462Z [INFO] CompactionProcessor: Utilization 14.0% (17945/128000 tokens) below threshold 80%
+2026-05-01T10:17:12.551Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-05-01T10:47:39.611Z [ERROR] error (Request-ID null)
+2026-05-01T10:47:39.612Z [ERROR] {
+  "status": 504,
+  "headers": {},
+  "requestID": null,
+  "request_id": null,
+  "ghRequestId": null,
+  "name": "CAPIError",
+  "message": "504 504 status code (no body)",
+  "stack": "CAPIError: 504 504 status code (no body)\n    at t.fromAPIError (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2082:1048)\n    at w0e.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2082:11934)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async w0e.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2094:3401)\n    at async t.runAgenticLoop (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2603:3046)\n    at async t.processQueuedItems (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2601:9035)\n    at async t.processQueue (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2601:3027)\n    at async t.send (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2599:4033)\n    at async asa (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:6698:2232)\n    at async mSt (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:6657:662)"
+}
+2026-05-01T10:47:39.613Z [ERROR] Retry after is not set. Giving up.
+2026-05-01T10:47:39.613Z [ERROR] error
+2026-05-01T10:47:39.613Z [ERROR] {
+  "status": 504,
+  "headers": {},
+  "requestID": null,
+  "request_id": null,
+  "ghRequestId": null,
+  "name": "CAPIError",
+  "message": "504 504 status code (no body)",
+  "stack": "CAPIError: 504 504 status code (no body)\n    at t.fromAPIError (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2082:1048)\n    at w0e.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2082:11934)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async w0e.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2094:3401)\n    at async t.runAgenticLoop (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2603:3046)\n    at async t.processQueuedItems (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2601:9035)\n    at async t.processQueue (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2601:3027)\n    at async t.send (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2599:4033)\n    at async asa (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:6698:2232)\n    at async mSt (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:6657:662)"
+}
+2026-05-01T10:47:39.613Z [INFO] --- End of group ---
