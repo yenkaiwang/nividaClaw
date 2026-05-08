@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中國美女 - 古典繪像</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(180deg, #FFF8F0 0%, #FFE8D6 100%);
+    font-family: 'Georgia', serif;
+  }
+  .container {
+    text-align: center;
+  }
+  h1 {
+    color: #8B4513;
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    letter-spacing: 8px;
+  }
+  .subtitle {
+    color: #A0522D;
+    font-size: 1em;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+  }
+  .frame {
+    border: 4px solid #C19A6B;
+    border-radius: 20px;
+    padding: 20px;
+    background: #FFFDF9;
+    box-shadow: 0 10px 40px rgba(139,69,19,0.15);
+    display: inline-block;
+  }
+  .caption {
+    color: #8B4513;
+    font-size: 1.1em;
+    margin-top: 15px;
+    letter-spacing: 3px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>中 國 美 女</h1>
+  <div class="subtitle">── 古典仕女圖 ──</div>
+  <div class="frame">
+    <svg width="500" height="700" viewBox="0 0 500 700" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <!-- 背景漸層 -->
+        <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#FFF5E6"/>
+          <stop offset="100%" stop-color="#FFE4CC"/>
+        </linearGradient>
+        <!-- 髮色漸層 -->
+        <linearGradient id="hairGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#1a1a2e"/>
+          <stop offset="100%" stop-color="#0d0d1a"/>
+        </linearGradient>
+        <!-- 肌膚漸層 -->
+        <linearGradient id="skinGrad" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#FFE4C9"/>
+          <stop offset="50%" stop-color="#FFF0DB"/>
+          <stop offset="100%" stop-color="#FFE4C9"/>
+        </linearGradient>
+        <!-- 衣服漸層 -->
+        <linearGradient id="dressGrad" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#E8353F"/>
+          <stop offset="50%" stop-color="#C41E3A"/>
+          <stop offset="100%" stop-color="#8B0000"/>
+        </linearGradient>
+        <!-- 紅脣漸層 -->
+        <linearGradient id="lipGrad" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#C41E3A"/>
+          <stop offset="50%" stop-color="#E8354B"/>
+          <stop offset="100%" stop-color="#C41E3A"/>
+        </linearGradient>
+        <!-- 腮紅 -->
+        <radialGradient id="blush">
+          <stop offset="0%" stop-color="#FFB6C1" stop-opacity="0.6"/>
+          <stop offset="100%" stop-color="#FFB6C1" stop-opacity="0"/>
+        </radialGradient>
+        <!-- 眼睛光澤 -->
+        <radialGradient id="eyeShine">
+          <stop offset="0%" stop-color="#FFF" stop-opacity="0.8"/>
+          <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+        </radialGradient>
+        <!-- 髮飾金 -->
+        <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#FFD700"/>
+          <stop offset="50%" stop-color="#FFC125"/>
+          <stop offset="100%" stop-color="#B8860B"/>
+        </linearGradient>
+        <!-- 袖子漸層 -->
+        <linearGradient id="sleeveGrad" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#E8353F"/>
+          <stop offset="100%" stop-color="#D42828"/>
+        </linearGradient>
+      </defs>
+
+      <!-- 背景 -->
+      <rect width="500" height="700" fill="url(#bgGrad)" rx="10"/>
+
+      <!-- 背景裝飾 - 梅花 -->
+      <g opacity="0.15" fill="#E8353F">
+        <circle cx="40" cy="80" r="8"/>
+        <circle cx="40" cy="80" r="3" fill="#FFD700"/>
+        <circle cx="460" cy="120" r="7"/>
+        <circle cx="460" cy="120" r="3" fill="#FFD700"/>
+        <circle cx="45" cy="650" r="6"/>
+        <circle cx="455" cy="640" r="8"/>
+        <circle cx="455" cy="640" r="3" fill="#FFD700"/>
+      </g>
+
+      <!-- 身體輪廓 -->
+      <!-- 肩膀 -->
+      <ellipse cx="210" cy="530" rx="70" ry="40" fill="url(#dressGrad)"/>
+      <ellipse cx="290" cy="530" rx="70" ry="40" fill="url(#dressGrad)"/>
+      
+      <!-- 身體 -->
+      <path d="M195 510 Q160 560 155 620 Q150 680 155 700 L345 700 Q350 680 345 620 Q340 560 305 510 Q295 530 250 540 Q205 530 195 510" fill="url(#dressGrad)"/>
+      
+      <!-- 衣領V字 -->
+      <path d="M220 460 Q235 500 250 520 Q265 500 280 460" fill="#2d1212" stroke="#8B0000" stroke-width="1"/>
+      <ellipse cx="250" cy="470" rx="25" ry="15" fill="#FFE4C9"/>
+
+      <!-- 衣服紋飾 - 花朵圖騰 -->
+      <g opacity="0.3">
+        <circle cx="210" cy="590" r="10" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+        <circle cx="210" cy="590" r="4" fill="#FFD700"/>
+        <circle cx="290" cy="590" r="10" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+        <circle cx="290" cy="590" r="4" fill="#FFD700"/>
+        <circle cx="250" cy="640" r="8" fill="none" stroke="#FFD700" stroke-width="1.2"/>
+        <circle cx="250" cy="640" r="3" fill="#FFD700"/>
+      </g>
+
+      <!-- 左袖子 -->
+      <path d="M180 490 Q100 510 60 560 Q40 600 55 650 Q70 700 110 720 Q80 680 90 630 Q95 590 130 560 Q155 540 180 530" fill="url(#sleeveGrad)" opacity="0.9"/>
+      <path d="M180 490 Q100 510 60 560 Q40 600 55 650 Q70 700 110 720" fill="none" stroke="#8B0000" stroke-width="1" opacity="0.5"/>
+
+      <!-- 右袖子 -->
+      <path d="M320 490 Q400 510 440 560 Q460 600 445 650 Q430 700 390 720 Q420 680 410 630 Q405 590 370 560 Q345 540 320 530" fill="url(#sleeveGrad)" opacity="0.9"/>
+      <path d="M320 490 Q400 510 440 560 Q460 600 445 650 Q430 700 390 720" fill="none" stroke="#8B0000" stroke-width="1" opacity="0.5"/>
+
+      <!-- 脖子 -->
+      <rect x="232" y="395" width="36" height="70" rx="15" fill="url(#skinGrad)"/>
+      
+      <!-- 下巴到脖子過渡 -->
+      <ellipse cx="250" cy="465" rx="22" ry="12" fill="url(#skinGrad)"/>
+
+      <!-- 臉部顴骨 -->
+      <ellipse cx="250" cy="440" rx="35" ry="10" fill="url(#skinGrad)" opacity="0.3"/>
+      
+      <!-- 頭髮（後層） -->
+      <ellipse cx="250" cy="240" rx="95" ry="110" fill="url(#hairGrad)"/>
+      <path d="M155 300 Q140 350 150 420 Q155 450 170 430" fill="url(#hairGrad)"/>
+      <path d="M345 300 Q360 350 350 420 Q345 450 330 430" fill="url(#hairGrad)"/>
+
+      <!-- 臉部（鵝蛋臉） -->
+      <ellipse cx="250" cy="350" rx="65" ry="78" fill="url(#skinGrad)"/>
+
+      <!-- 額頭光澤 -->
+      <ellipse cx="250" cy="300" rx="30" ry="15" fill="#FFF8E8" opacity="0.3"/>
+
+      <!-- 髮際線（額前劉海） -->
+      <path d="M192 310 Q195 280 210 270 Q230 255 250 250 Q270 255 290 270 Q305 280 308 310 Q305 295 290 280 Q275 265 250 260 Q225 265 210 280 Q195 295 192 310" fill="url(#hairGrad)"/>
+
+      <!-- 劉海 -->
+      <path d="M195 315 Q200 290 215 275 Q230 260 245 255 Q247 270 240 295 Q225 320 200 330 Z" fill="url(#hairGrad)"/>
+      <path d="M305 315 Q300 290 285 275 Q270 260 255 255 Q253 270 260 295 Q275 320 300 330 Z" fill="url(#hairGrad)"/>
+      <path d="M238 268 Q242 255 250 248 Q258 255 262 268 Q260 260 250 255 Q240 260 238 268" fill="url(#hairGrad)"/>
+
+      <!-- 兩側長髮 -->
+      <path d="M188 330 Q175 360 170 400 Q168 430 175 450 Q180 430 182 400 Q185 370 195 340" fill="url(#hairGrad)" opacity="0.9"/>
+      <path d="M312 330 Q325 360 330 400 Q332 430 325 450 Q320 430 318 400 Q315 370 305 340" fill="url(#hairGrad)" opacity="0.9"/>
+
+      <!-- 眉毛（遠山眉風格） -->
+      <path d="M205 330 Q215 320 230 318 Q240 317 245 322" fill="none" stroke="#1a1a2e" stroke-width="2" stroke-linecap="round"/>
+      <path d="M295 330 Q285 320 270 318 Q260 317 255 322" fill="none" stroke="#1a1a2e" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 眉毛下的陰影 -->
+      <ellipse cx="222" cy="328" rx="18" ry="4" fill="#F0C8A0" opacity="0.2"/>
+      <ellipse cx="278" cy="328" rx="18" ry="4" fill="#F0C8A0" opacity="0.2"/>
+
+      <!-- 眼睛 -->
+      <!-- 眼白 -->
+      <ellipse cx="222" cy="350" rx="15" ry="9" fill="#FFF"/>
+      <ellipse cx="278" cy="350" rx="15" ry="9" fill="#FFF"/>
+      
+      <!-- 虹膜 -->
+      <ellipse cx="223" cy="350" rx="8" ry="7" fill="#3D2B1F"/>
+      <ellipse cx="279" cy="350" rx="8" ry="7" fill="#3D2B1F"/>
+      
+      <!-- 瞳孔 -->
+      <ellipse cx="224" cy="350" rx="4" ry="4" fill="#0d0d1a"/>
+      <ellipse cx="280" cy="350" rx="4" ry="4" fill="#0d0d1a"/>
+      
+      <!-- 眼神高光 -->
+      <circle cx="226" cy="347" r="3" fill="url(#eyeShine)"/>
+      <circle cx="282" cy="347" r="3" fill="url(#eyeShine)"/>
+      
+      <!-- 眼角細微上揚 -->
+      <path d="M207 348 L202 346" fill="none" stroke="#1a1a2e" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M293 348 L298 346" fill="none" stroke="#1a1a2e" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 上眼瞼線 -->
+      <path d="M207 347 Q215 338 225 339 Q235 338 240 344" fill="none" stroke="#2d1f14" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M293 347 Q285 338 275 339 Q265 338 260 344" fill="none" stroke="#2d1f14" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- 睫毛 -->
+      <path d="M210 346 L207 342" fill="none" stroke="#0d0d1a" stroke-width="1" stroke-linecap="round"/>
+      <path d="M215 342 L213 338" fill="none" stroke="#0d0d1a" stroke-width="0.8" stroke-linecap="round"/>
+      <path d="M290 346 L293 342" fill="none" stroke="#0d0d1a" stroke-width="1" stroke-linecap="round"/>
+      <path d="M285 342 L287 338" fill="none" stroke="#0d0d1a" stroke-width="0.8" stroke-linecap="round"/>
+
+      <!-- 鼻樑 -->
+      <path d="M247 360 Q248 375 250 385 Q252 375 253 360" fill="none" stroke="#E8C4A0" stroke-width="1.5" opacity="0.6"/>
+      
+      <!-- 鼻尖光澤 -->
+      <ellipse cx="251" cy="388" rx="3" ry="2" fill="#FFF" opacity="0.3"/>
+
+      <!-- 鼻子 -->
+      <ellipse cx="250" cy="388" rx="5" ry="3" fill="#F0C8A0" opacity="0.5"/>
+
+      <!-- 腮紅 -->
+      <ellipse cx="205" cy="378" rx="16" ry="10" fill="url(#blush)"/>
+      <ellipse cx="295" cy="378" rx="16" ry="10" fill="url(#blush)"/>
+
+      <!-- 嘴脣（樱桃小口） -->
+      <!-- 上唇 -->
+      <path d="M235 405 Q240 398 247 400 Q250 402 253 400 Q260 398 265 405 Q260 403 253 402 Q250 401 247 403 Q240 402 235 405" fill="url(#lipGrad)"/>
+      <!-- 下唇 -->
+      <path d="M235 405 Q240 418 250 419 Q260 418 265 405 Q260 412 250 413 Q240 412 235 405" fill="url(#lipGrad)"/>
+      
+      <!-- 嘴脣光澤 -->
+      <ellipse cx="250" cy="410" rx="4" ry="2" fill="#FFF" opacity="0.25"/>
+      
+      <!-- 嘴角 -->
+      <path d="M233 405 Q232 404 231 405" fill="none" stroke="#B01030" stroke-width="0.8"/>
+      <path d="M267 405 Q268 404 269 405" fill="none" stroke="#B01030" stroke-width="0.8"/>
+
+      <!-- 臉頰下方陰影 -->
+      <ellipse cx="250" cy="420" rx="30" ry="15" fill="#F0C8A0" opacity="0.15"/>
+
+      <!-- 耳環 -->
+      <!-- 左耳環 -->
+      <circle cx="182" cy="380" r="8" fill="none" stroke="url(#goldGrad)" stroke-width="2"/>
+      <circle cx="182" cy="395" r="3" fill="#C41E3A"/>
+      <!-- 右耳環 -->
+      <circle cx="318" cy="380" r="8" fill="none" stroke="url(#goldGrad)" stroke-width="2"/>
+      <circle cx="318" cy="395" r="3" fill="#C41E3A"/>
+
+      <!-- 髮飾 - 鳳簪（頭頂） -->
+      <g transform="translate(250, 240)">
+        <!-- 簪子本體 -->
+        <rect x="-2" y="-50" width="4" height="55" rx="2" fill="url(#goldGrad)"/>
+        <!-- 鳳凰花飾 → 簡化為珠寶花 -->
+        <g>
+          <ellipse cx="0" cy="-42" rx="12" ry="10" fill="none" stroke="url(#goldGrad)" stroke-width="1.5"/>
+          <ellipse cx="0" cy="-42" rx="6" ry="5" fill="#C41E3A" opacity="0.7"/>
+          <circle cx="0" cy="-42" r="3" fill="#FFD700"/>
+          <!-- 小珠下垂 -->
+          <line x1="0" y1="-37" x2="0" y2="-30" stroke="url(#goldGrad)" stroke-width="1"/>
+          <circle cx="0" cy="-29" r="2" fill="#C41E3A"/>
+        </g>
+      </g>
+
+      <!-- 髮簪流蘇 - 左 -->
+      <g opacity="0.7">
+        <line x1="256" y1="240" x2="262" y2="280" stroke="url(#goldGrad)" stroke-width="0.8"/>
+        <circle cx="262" cy="280" r="2" fill="#C41E3A"/>
+      </g>
+
+      <!-- 脖子上項鍊 -->
+      <path d="M225 465 Q237 472 250 475 Q263 472 275 465" fill="none" stroke="url(#goldGrad)" stroke-width="1.5"/>
+      <circle cx="250" cy="475" r="4" fill="#C41E3A"/>
+      <circle cx="250" cy="475" r="2" fill="#FFD700"/>
+
+      <!-- 領口金色鑲邊 -->
+      <path d="M220 460 Q235 500 250 520" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.6"/>
+      <path d="M280 460 Q265 500 250 520" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.6"/>
+
+      <!-- 腰帶/腰封 -->
+      <path d="M175 600 Q210 590 250 588 Q290 590 325 600" fill="none" stroke="url(#goldGrad)" stroke-width="3" opacity="0.7"/>
+      <ellipse cx="250" cy="595" rx="12" ry="8" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.7"/>
+      <circle cx="250" cy="595" r="3" fill="#006400" opacity="0.7"/>
+
+      <!-- 手指（從袖子伸出） -->
+      <!-- 左手 -->
+      <ellipse cx="85" cy="710" rx="15" ry="8" fill="url(#skinGrad)"/>
+      <line x1="95" y1="713" x2="100" y2="718" stroke="url(#skinGrad)" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- 右手 -->
+      <ellipse cx="415" cy="710" rx="15" ry="8" fill="url(#skinGrad)"/>
+      <line x1="405" y1="713" x2="400" y2="718" stroke="url(#skinGrad)" stroke-width="3" stroke-linecap="round"/>
+
+    </svg>
+  </div>
+  <div class="caption">─ 古典仕女圖 ─</div>
+</div>
+</body>
+</html>
