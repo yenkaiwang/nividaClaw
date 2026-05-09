@@ -1,0 +1,65 @@
+2026-05-09T01:39:45.338Z [WARNING] Model "gpt-oss-120b" is not in the built-in catalog. Using defaults for: prompt tokens (COPILOT_PROVIDER_MAX_PROMPT_TOKENS), output tokens (COPILOT_PROVIDER_MAX_OUTPUT_TOKENS). Run `copilot help providers` for configuration details.
+2026-05-09T01:39:45.764Z [INFO] Session indexing debug: SESSION_INDEXING=false, repository=undefined, savedIndexingLevel=undefined
+2026-05-09T01:39:45.815Z [INFO] Workspace initialized: 7de4e80e-926f-4a69-81e7-8d87f87e9245 (checkpoints: 0)
+2026-05-09T01:39:45.818Z [INFO] Session indexing debug: showSessionSyncPrompt=false
+2026-05-09T01:39:45.818Z [INFO] Starting Copilot CLI: 1.0.27
+2026-05-09T01:39:45.818Z [INFO] Node.js version: v24.11.1
+2026-05-09T01:39:45.830Z [ERROR] Starting remote MCP client for github-mcp-server with url: https://api.individual.githubcopilot.com/mcp/readonly
+2026-05-09T01:39:45.831Z [ERROR] Creating MCP client for github-mcp-server...
+2026-05-09T01:39:45.831Z [ERROR] Connecting MCP client for github-mcp-server...
+2026-05-09T01:39:46.381Z [ERROR] MCP client for github-mcp-server connected, took 550ms
+2026-05-09T01:39:46.382Z [ERROR] Started MCP client for remote server github-mcp-server
+2026-05-09T01:39:46.382Z [ERROR] GitHub MCP server configured after authentication
+2026-05-09T01:39:46.575Z [INFO] Memory is not enabled: Error: Copilot token is required
+2026-05-09T01:39:46.575Z [INFO] Memory is not enabled; skipping memory tools.
+2026-05-09T01:39:46.691Z [INFO] Memory is not enabled: Error: Copilot token is required
+2026-05-09T01:39:46.691Z [INFO] Memory is not enabled; skipping memory tools.
+2026-05-09T01:39:46.695Z [INFO] Memory is not enabled: Error: Copilot token is required
+2026-05-09T01:39:46.695Z [INFO] Memory is not enabled; skipping memory tools.
+2026-05-09T01:39:46.696Z [INFO] Using custom provider: type=openai, baseUrl=https://api.groq.com/openai/v1, wireApi=completions
+2026-05-09T01:39:46.697Z [INFO]  
+2026-05-09T01:39:46.697Z [INFO] --- Start of group: Custom provider configured settings: ---
+2026-05-09T01:39:46.697Z [INFO] --- End of group ---
+2026-05-09T01:39:46.699Z [ERROR] Failed to load memories for prompt: Error: Copilot token is required
+2026-05-09T01:39:46.705Z [INFO] --- Start of group: Completion request configuration:  ---
+2026-05-09T01:39:46.706Z [INFO] --- End of group ---
+2026-05-09T01:39:47.483Z [INFO] CompactionProcessor: Utilization 14.9% (19121/128000 tokens) below threshold 80%
+2026-05-09T01:39:47.570Z [INFO] --- Start of group: Sending request to the AI model ---
+2026-05-09T01:39:47.787Z [ERROR] error (Request-ID req_01kr5681d3ex4rhcc0243ee5bq)
+2026-05-09T01:39:47.788Z [ERROR] {
+  "status": 401,
+  "headers": {},
+  "requestID": "req_01kr5681d3ex4rhcc0243ee5bq",
+  "error": {
+    "message": "Invalid API Key",
+    "type": "invalid_request_error",
+    "code": "invalid_api_key"
+  },
+  "code": "invalid_api_key",
+  "type": "invalid_request_error",
+  "request_id": "req_01kr5681d3ex4rhcc0243ee5bq",
+  "ghRequestId": "req_01kr5681d3ex4rhcc0243ee5bq",
+  "name": "CAPIError",
+  "message": "401 Invalid API Key",
+  "stack": "CAPIError: 401 Invalid API Key\n    at t.fromAPIError (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2082:1048)\n    at w0e.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2082:11934)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async w0e.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2094:3401)\n    at async t.runAgenticLoop (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2603:3046)\n    at async t.processQueuedItems (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2601:9035)\n    at async t.processQueue (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2601:3027)\n    at async t.send (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2599:4033)\n    at async asa (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:6698:2232)\n    at async mSt (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:6657:662)"
+}
+2026-05-09T01:39:47.789Z [ERROR] Retry after is not set. Giving up.
+2026-05-09T01:39:47.789Z [ERROR] error
+2026-05-09T01:39:47.789Z [ERROR] {
+  "status": 401,
+  "headers": {},
+  "requestID": "req_01kr5681d3ex4rhcc0243ee5bq",
+  "error": {
+    "message": "Invalid API Key",
+    "type": "invalid_request_error",
+    "code": "invalid_api_key"
+  },
+  "code": "invalid_api_key",
+  "type": "invalid_request_error",
+  "request_id": "req_01kr5681d3ex4rhcc0243ee5bq",
+  "ghRequestId": "req_01kr5681d3ex4rhcc0243ee5bq",
+  "name": "CAPIError",
+  "message": "401 Invalid API Key",
+  "stack": "CAPIError: 401 Invalid API Key\n    at t.fromAPIError (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2082:1048)\n    at w0e.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2082:11934)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async w0e.getCompletionWithTools (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2094:3401)\n    at async t.runAgenticLoop (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2603:3046)\n    at async t.processQueuedItems (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2601:9035)\n    at async t.processQueue (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2601:3027)\n    at async t.send (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:2599:4033)\n    at async asa (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:6698:2232)\n    at async mSt (file:///home/runner/.cache/copilot/pkg/linux-x64/1.0.27/app.js:6657:662)"
+}
+2026-05-09T01:39:47.789Z [INFO] --- End of group ---
