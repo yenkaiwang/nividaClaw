@@ -1,0 +1,5 @@
+{
+  "defaultProvider": "openai",
+  "defaultModel": "openai/gpt-oss-120b",
+  "quietStartup": true
+}
