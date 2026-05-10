@@ -1,0 +1,2 @@
+Authentication failed with provider at https://api.groq.com/openai/v1 (HTTP 401).
+  Check your COPILOT_PROVIDER_API_KEY or COPILOT_PROVIDER_BEARER_TOKEN.

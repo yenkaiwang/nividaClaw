@@ -1,0 +1,10 @@
+id: b794c0ed-2335-4ca3-8553-81d98cffc815
+cwd: /home/runner/work/nividaClaw/nividaClaw
+git_root: /home/runner/work/nividaClaw/nividaClaw
+repository: yenkaiwang/nividaClaw
+host_type: github
+branch: issue-15
+summary_count: 0
+created_at: 2026-05-10T09:58:40.738Z
+updated_at: 2026-05-10T09:58:42.897Z
+summary: "請將最終結果寫入 artifacts/4415004132/result.md 。我的提示詞為: 請告知我模型的作用"
