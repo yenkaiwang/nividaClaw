@@ -1,5 +1,5 @@
 {
-  "defaultProvider": "cloudflare-workers-ai",
-  "defaultModel": "@cf/moonshotai/kimi-k2.6",
+  "defaultProvider": "openai",
+  "defaultModel": "gpt-oss-120b",
   "quietStartup": true
 }
