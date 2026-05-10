@@ -1,0 +1,6 @@
+{
+  "provider": "custom",
+  "byokModel": "openai/gpt-oss-120b",
+  "providerBaseUrl": "https://api.groq.com/openai/v1",
+  "providerType": "openai"
+}
