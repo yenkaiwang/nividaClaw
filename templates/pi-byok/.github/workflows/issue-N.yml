@@ -101,8 +101,8 @@ jobs:
           SECRET_CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           SECRET_ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SECRET_OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          SECRET_GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           SECRET_GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          SECRET_GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           # 讀取 provider（Pi 原生 provider id）
           PROVIDER="cloudflare-workers-ai"
@@ -122,11 +122,11 @@ jobs:
             openai)
               echo "OPENAI_API_KEY=${SECRET_OPENAI_API_KEY}" >> "$GITHUB_ENV"
               ;;
-            google)
-              echo "GEMINI_API_KEY=${SECRET_GEMINI_API_KEY}" >> "$GITHUB_ENV"
-              ;;
             groq)
               echo "GROQ_API_KEY=${SECRET_GROQ_API_KEY}" >> "$GITHUB_ENV"
+              ;;
+            google)
+              echo "GEMINI_API_KEY=${SECRET_GEMINI_API_KEY}" >> "$GITHUB_ENV"
               ;;
             *)
               echo "Unknown provider: $PROVIDER"
