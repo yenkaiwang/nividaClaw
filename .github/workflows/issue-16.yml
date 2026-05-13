@@ -63,6 +63,7 @@ env:
   COMMENT_ID: "${{ github.event_name == 'repository_dispatch' && github.event.client_payload.comment_id || inputs.comment_id }}"
   # 這次觸發來源的使用者留言 id，用來讀取對應的 user.md。
   USER_COMMENT_ID: "${{ github.event_name == 'repository_dispatch' && github.event.client_payload.user_comment_id || inputs.user_comment_id }}"
+  FELO_API_KEY: "${{ secrets.FELO_API_KEY }}"
 
 jobs:
   # 單一主 job：在 GitHub-hosted runner 上完成驗證、執行 agent、寫回結果。
