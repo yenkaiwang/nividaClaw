@@ -1,5 +1,5 @@
 {
   "defaultProvider": "groq",
-  "defaultModel": "stabilityai/stable-diffusion-xl",
+  "defaultModel": "openai/gpt-oss-120b",
   "quietStartup": true
 }

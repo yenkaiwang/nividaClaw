@@ -1,0 +1,1 @@
+已成功將 `.pi/settings.json` 中的 `defaultModel` 從 `stabilityai/stable-diffusion-xl` 替換為 `openai/gpt-oss-120b`。
