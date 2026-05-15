@@ -1,0 +1,5 @@
+{
+  "defaultProvider": "groq",
+  "defaultModel": "stabilityai/stable-diffusion-xl",
+  "quietStartup": true
+}
