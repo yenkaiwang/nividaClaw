@@ -29,7 +29,7 @@
         { "value": "@cf/moonshotai/kimi-k2.5", "label": "Kimi K2.5" },
         { "value": "@cf/moonshotai/kimi-k2.6", "label": "Kimi K2.6" },
         { "value": "@cf/nvidia/nemotron-3-120b-a12b", "label": "Nemotron 3 120B" },
-        { "value": "@cf/openai/gpt-oss-120b", "label": "GPT OSS 120B" },
+        { "value": "@cf/openai/stable-diffusion-xl", "label": "Stable Diffusion XL" },
         { "value": "@cf/openai/gpt-oss-20b", "label": "GPT OSS 20B" }
       ]
     },
@@ -66,9 +66,9 @@
       "label": "Groq",
       "description": "使用 Groq 高速推論 API。",
       "secretName": "GROQ_API_KEY",
-      "defaultModel": "openai/gpt-oss-120b",
+      "defaultModel": "openai/stable-diffusion-xl",
       "models": [
-        { "value": "openai/gpt-oss-120b", "label": "GPT OSS 120B" },
+        { "value": "openai/stable-diffusion-xl", "label": "Stable Diffusion XL" },
         { "value": "openai/gpt-oss-20b", "label": "GPT OSS 20B" },
         { "value": "moonshotai/kimi-k2-instruct", "label": "Kimi K2 Instruct" },
         { "value": "moonshotai/kimi-k2-instruct-0905", "label": "Kimi K2 Instruct 0905" },
